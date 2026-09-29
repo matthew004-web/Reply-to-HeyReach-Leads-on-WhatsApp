@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+out/
+state.json
+watch_state.json
+config.yaml
+config.yaml.bak
+.env

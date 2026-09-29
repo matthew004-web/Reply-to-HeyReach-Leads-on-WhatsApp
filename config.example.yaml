@@ -1,0 +1,27 @@
+# --- heyreach-inbox-digest config ---
+# Copy to config.yaml (or run: python3 setup.py) and make it yours.
+# config.yaml is gitignored — never commit your personal details.
+
+team:
+  # People who reply from your HeyReach sender accounts.
+  - name: "Alex Rivera"
+    heyreach_account_id: 111111
+  - name: "Sam Chen"
+    heyreach_account_id: 222222
+
+product:
+  name: "HeyReach"
+  one_liner: "LinkedIn outreach automation for agencies and sales teams"
+  meeting_link: "https://cal.com/your-team/intro"   # used in meeting CTAs
+  docs_url: "https://help.heyreach.io"
+
+goals:
+  # In priority order — the first is the default CTA target.
+  - "book a meeting"
+  - "sell an upgrade"
+  - "resolve, then convert"
+
+voice:
+  tone: "direct"         # direct (Hormozi-style) | casual | professional | playful
+  max_sentences: 4
+  emojis: false
